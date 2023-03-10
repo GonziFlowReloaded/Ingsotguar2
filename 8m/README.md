@@ -9,7 +9,8 @@ El objetivo de este proyecto consiste en la codificación del diagrama UML prese
 ## Instalación
 
 Para utilizar este proyecto, se debe descargar el código fuente desde el repositorio de GitHub y ejecutar el siguiente comando:
-´´´
-Prueba
-´´´
+```
+pip install -r requirements.txt
+```
+
 
