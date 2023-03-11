@@ -1,13 +1,7 @@
-# lista = []
-# lista.append("asd")
-# print(len(lista))
-# palabra = "riquelme"
-# print(len(palabra))
 
-
-from carpeta import Carpeta
-from archivo import Archivo
-from foto import Foto
+from ..src.carpeta import Carpeta
+from ..src.archivo import Archivo
+from ..src.foto import Foto
 
 
 def testCrearCarpeta():
