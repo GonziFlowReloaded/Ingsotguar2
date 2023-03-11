@@ -1,7 +1,6 @@
-
-from ..src.carpeta import Carpeta
-from ..src.archivo import Archivo
-from ..src.foto import Foto
+from archivo import Archivo
+from carpeta import Carpeta
+from foto import Foto
 
 
 def testCrearCarpeta():
