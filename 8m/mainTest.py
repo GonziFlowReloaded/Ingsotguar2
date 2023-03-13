@@ -62,9 +62,8 @@ def test_DebeInsertarUnaCarpetaDentroDeOtraConUnArchivo():
 
 def test_FotoDebeTenerDimensiones():
     miFoto = Foto("foto1.jpg", "300x300")
-    assert miFoto.getDimensiones() == "300x300"
+    assert miFoto.getDimension() == "300x300"
 
 def test_ArchivoDebeTenerTamaño():
     miArchivo = Archivo("archivo1.txt")
-    assert miArchivo.getTamaño() == 0
-    
+    assert miArchivo.getTamaño() == 12
