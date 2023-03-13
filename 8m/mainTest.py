@@ -40,8 +40,7 @@ def test_DebeInsertarFotoYArchivoEnCarpeta():
     miCarpeta.addElemento(miFoto)
     miCarpeta.addElemento(miArchivo)
     assert miCarpeta.contarElementos() == 2
-    # elementos = miCarpeta.getElementos()
-    # assert elementos[0].getNombre() == "foto1.jpg"
+   
 
 def test_DebeInsertarUnaCarpetaDentroDeOtra():
     miCarpeta = Carpeta("Carpeta1")
@@ -60,3 +59,12 @@ def test_DebeInsertarUnaCarpetaDentroDeOtraConUnArchivo():
     assert miCarpeta.contarElementos() == 1
     assert miCarpeta.getElementos()[0].getNombre() == "Carpeta2"
     assert miCarpeta.getElementos()[0].getElementos()[0].getNombre() == "archivo1.txt"
+
+def test_FotoDebeTenerDimensiones():
+    miFoto = Foto("foto1.jpg", "300x300")
+    assert miFoto.getDimensiones() == "300x300"
+
+def test_ArchivoDebeTenerTamaño():
+    miArchivo = Archivo("archivo1.txt")
+    assert miArchivo.getTamaño() == 0
+    

@@ -9,3 +9,6 @@ class Elemento():
     
     def setNombre(self, nombre):
         self.nombre = nombre
+
+    def getTamaño(self):
+        return self.tamaño
