@@ -31,9 +31,12 @@ jobs:
     - name: Testeo del primer entregable
       run: |
         pytest .\8m\mainTest.py -vv
-    - name: Testeo del segundo entregable
+    - name: Testeo del segundo entregable 1/2
       run: |
         pytest .\13m\mainLetrasTest.py -v
-    - name: Testeo del segundo entregable
+    - name: Testeo del segundo entregable 2/2
       run: |
         pytest .\13m\mainNumerosTest.py -v
+    - name: Testeo del tercer entregable
+      run: |
+        pytest .\ppt\mainTest.py -v

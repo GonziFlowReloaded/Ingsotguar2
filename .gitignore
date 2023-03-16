@@ -1,0 +1,23 @@
+__pytest_cache__/
+    .pytest_cache/
+    .tox/
+    .coverage
+    .coverage.*
+    .cache
+    *.pyc
+    *.pyo
+    *.pyd
+    *.so
+    *.egg
+    *.egg-info
+    dist
+    build
+    docs/_build
+    *.egg-info
+    .eggs
+    *.egg
+    .cache
+    .coverage
+    .coverage.*
+
+__pycache__
