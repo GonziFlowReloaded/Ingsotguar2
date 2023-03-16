@@ -9,6 +9,7 @@ class Carpeta(Elemento):
 
     def addElemento(self, element):
         self.elementos.append(element)
+        self.tamaño += element.getTamaño()
 
     def contarElementos(self):
         return(len(self.elementos))

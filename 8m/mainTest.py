@@ -67,3 +67,9 @@ def test_FotoDebeTenerDimensiones():
 def test_ArchivoDebeTenerTamaño():
     miArchivo = Archivo("archivo1.txt")
     assert miArchivo.getTamaño() == 12
+
+def test_CarpetaConArchivoDebeTenerTamaño():
+    miCarpeta = Carpeta("Carpeta1")
+    miArchivo = Archivo("archivo1.txt")
+    miCarpeta.addElemento(miArchivo)
+    assert miCarpeta.getTamaño() == 20
