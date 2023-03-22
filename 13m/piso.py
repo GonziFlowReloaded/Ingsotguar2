@@ -21,3 +21,6 @@ class Piso():
     
     def getPisoAbajo(self):
         return self.pisoAbajo
+    
+    def getNombre(self):
+        return self.nombre
