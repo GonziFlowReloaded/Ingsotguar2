@@ -8,4 +8,4 @@ En este repositorio voy a ir subiendo los trabajos solicitados de la materia
 
 - ### [Entregable N°2](https://github.com/GonziFlowReloaded/Ingsotguar2/tree/main/13m) "Ascensor"
 
-- ### [Entregable N°3](https://github.com/GonziFlowReloaded/Ingsotguar2/tree/main/15m) "Piedras Papel o Tijeras"
+- ### [Entregable N°3](https://github.com/GonziFlowReloaded/Ingsotguar2/tree/main/ppt) "Piedras Papel o Tijeras"
