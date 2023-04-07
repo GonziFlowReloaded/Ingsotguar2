@@ -40,3 +40,6 @@ jobs:
     - name: Testeo del tercer entregable
       run: |
         pytest .\ppt\mainTest.py -v
+    - name: Test singleton
+      run : |
+        pytest .\singleton\singletonTest.py -v
